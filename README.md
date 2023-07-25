@@ -55,16 +55,23 @@ application. We want you to display knowledge of as much from Phase 3 as you
 can- you won't be able to fit everything in, but we'll expect to see:
 
 - A database created and modified with Python ORM methods that you will write.
-  - The data model includes **at least 3** classes/tables
-  - The data model includes **at least 2** one-to-many relationships.
+  - The data model includes **at least 2** model classes.
+  - The data model includes **at least 1** one-to-many relationships.
   - ORM methods are implemented for each class in the data model.
 - A CLI application that solves a real-world problem and adheres to best
   practices.
+
+  - Display menus with which a user may interact.
+  - Create loops as needed to keep the user in the application until they choose
+    to exit.
   - For each class in the data model, the CLI includes options to create,
     update, delete, get all, and find by id.
+  - Validate user input.
+
+- Proper separation of concerns - (ex: models do not contain print statements)
 - A well-maintained virtual environment using Pipenv.
 - Proper package structure in your application.
-- Appropriate use of `list`s, `dict`s, and `tuple`s.
+- Use Python data structures in appropriate context
 
 You do **not** need to implement tests for `pytest`, although you should test
 your code thoroughly using your CLI. Try entering bad data when prompted for
