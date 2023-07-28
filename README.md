@@ -2,16 +2,13 @@
 
 ## Learning Goals
 
-- Configure environments with project-specific parameters using Pipenv.
-- Import and use external libraries.
+- Implement a Python application that includes a **Command Line Interface**.
+- Implement a set of **Object-Relational Mapping** functions for two or more
+  model classes.
 - Define a Python object model that includes a one-to-many relationship between
-  classes.
-- Implement a set of **Object-Relational Mapping** functions to persist
-  instances of a Python class to a relational database.
-- Implement a **Command Line Interface** application.
-- Validate user input.
-- Use Python data structures in appropriate context
+  two classes.
 - Exercise best practices in CLI design.
+- Exercise best practices in OOP.
 
 ---
 
@@ -36,7 +33,7 @@
 
 ---
 
-## Instructions
+## Introduction
 
 Welcome to the end of Phase 3! You've learned about a lot in this unit:
 
@@ -44,35 +41,42 @@ Welcome to the end of Phase 3! You've learned about a lot in this unit:
 - Data structures (and more recently, algorithms).
 - Object-oriented programming.
 - Object inheritance.
-- Class attributes and methods.
+- Instance and class attributes and methods.
 - Configuring applications.
 - SQL fundamentals.
 - Table relations in SQL.
 - Object-relational mapping with Python.
 - Building CLIs.
 
-In this project, we're going to use these skills to create a CLI and ORM
-application. We want you to display knowledge of as much from Phase 3 as you
-can- you won't be able to fit everything in, but we'll expect to see:
+You're going to use these skills to create a CLI and ORM application. The Phase
+3 project is open-ended when it comes to the actual content. You are free to
+create whatever you'd like, as long as it incorporates the requirements listed
+below.
 
-- A database created and modified with Python ORM methods that you will write.
-  - The data model includes **at least 2** model classes.
-  - The data model includes **at least 1** one-to-many relationships.
-  - ORM methods are implemented for each class in the data model.
-- A CLI application that solves a real-world problem and adheres to best
-  practices.
+## Requirements
 
-  - Display menus with which a user may interact.
-  - Create loops as needed to keep the user in the application until they choose
-    to exit.
-  - For each class in the data model, the CLI includes options to create,
-    update, delete, get all, and find by id.
-  - Validate user input.
+You need to implement a Python CLI Application that meets the following
+requirements:
 
-- Proper separation of concerns - (ex: models do not contain print statements)
-- A well-maintained virtual environment using Pipenv.
-- Proper package structure in your application.
-- Use Python data structures in appropriate context
+- The application must include a database created and modified with Python ORM
+  methods that you write.
+  - The data model must include **at least 2** model classes.
+  - The data model must include **at least 1** one-to-many relationships.
+  - Property methods should be defined to add appropriate constraints to each
+    model class.
+  - Each model class should include ORM methods (create, update, delete, get
+    all, and find by id).
+- The CLI must display menus with which a user may interact.
+- The CLI should use loops as needed to keep the user in the application until
+  they choose to exit.
+- For each class in the data model, the CLI must include options to create,
+  update, delete, get all, and find by id.
+- The CLI should provide informative feedback to the user.
+- The project code should follow OOP best practices.
+- The project should use a well-maintained virtual environment using Pipenv.
+- Project folders, files, and modules should be organized and follow appropriate
+  naming conventions.
+- The project should include a `README.md` file that describes the application.
 
 You do **not** need to implement tests for `pytest`, although you should test
 your code thoroughly using your CLI. Try entering bad data when prompted for
@@ -80,11 +84,13 @@ input, and confirm your application prints a useful error message.
 
 ## How to begin?
 
-- Think about your data model.
+- Start with the project template (provided in the following lesson). You are
+  free to adapt the template structure, as long as you adhere to the project
+  requirements.
 - Think about the user interaction. How will you prompt the user? What
   information will the user enter? How will you provide feedback to the user?
-- Use the project template (provided in a separate lesson) to organize your
-  Python classes.
+- Think about your data model. How will you organize and store the information
+  received from the user?
 - If you get stuck trying to accomplish a specific task, check online to see if
   there's a Python library that will make it easier.
 - Consider using [Click][click] or [Fire][fire] to take care of basic CLI tasks
