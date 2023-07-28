@@ -84,5 +84,17 @@ input, and confirm your application prints a useful error message.
   information will the user enter? How will you provide feedback to the user?
 - Use the project template (provided in a separate lesson) to organize your
   Python classes.
+- If you get stuck trying to accomplish a specific task, check online to see if
+  there's a Python library that will make it easier.
+- Consider using [Click][click] or [Fire][fire] to take care of basic CLI tasks
+  for you.
 
 ---
+
+## Resources
+
+- [Click documentation][click]
+- [The Python Fire Guide][fire]
+
+[click]: https://click.palletsprojects.com/en/8.1.x/
+[fire]: https://google.github.io/python-fire/guide/
