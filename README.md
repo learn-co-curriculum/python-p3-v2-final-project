@@ -9,7 +9,8 @@
 - Implement a set of **Object-Relational Mapping** functions to persist
   instances of a Python class to a relational database.
 - Implement a **Command Line Interface** application.
-- Use `list`s, `dict`s, and `tuple`s in appropriate contexts.
+- Validate user input.
+- Use Python data structures in appropriate context
 - Exercise best practices in CLI design.
 
 ---
