@@ -64,14 +64,15 @@ requirements:
   - The data model must include **at least 1** one-to-many relationships.
   - Property methods should be defined to add appropriate constraints to each
     model class.
-  - Each model class should include ORM methods (create, delete, get
-    all, and find by id).
+  - Each model class should include ORM methods (read, create, and delete at minimum).
 - The CLI must display menus with which a user may interact.
 - The CLI should use loops as needed to keep the user in the application until
   they choose to exit.
-- For each class in the data model, the CLI must include options to create,
-  update, delete, get all, and find by id.
-- The CLI should provide informative feedback to the user.
+- For **EACH** class in the data model, the CLI must include options: to create an object,
+  delete an object, display all objects, view related objects, 
+  and find an object by attribute.
+- The CLI should validate user input and object creations/updates, providing 
+  informative errors to the user. 
 - The project code should follow OOP best practices.
 - The project should use a well-maintained virtual environment using Pipenv.
 - Project folders, files, and modules should be organized and follow appropriate
