@@ -64,7 +64,7 @@ requirements:
   - The data model must include **at least 1** one-to-many relationships.
   - Property methods should be defined to add appropriate constraints to each
     model class.
-  - Each model class should include ORM methods (create, update, delete, get
+  - Each model class should include ORM methods (create, delete, get
     all, and find by id).
 - The CLI must display menus with which a user may interact.
 - The CLI should use loops as needed to keep the user in the application until
