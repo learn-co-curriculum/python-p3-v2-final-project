@@ -70,7 +70,7 @@ requirements.
   - Each model class should include ORM methods (create, delete, get all, and
     find by id at minimum).
 
-  ### CLI Requirements
+### CLI Requirements
 
 - The CLI must display menus with which a user may interact.
 - The CLI should use loops as needed to keep the user in the application until
